@@ -1,0 +1,331 @@
+/* import fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Lora:wght@400;500;600&family=PT+Serif:wght@700&family=Rubik:ital,wght@0,400;0,500;0,600;1,400&display=swap");
+
+/* universal font */
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+.nav-link,p,h1,h2,h3,h4,h5{
+    color: black;
+}
+.btn , h1,h2,h3{
+    font-weight: 700;
+}
+
+
+/* Navbar Style Css start from here */
+
+
+.nav-link {
+  
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn.sign-btn {
+  color: white !important;
+  margin-left: 5px !important;
+  border-radius: 50px;
+  background-color: #111;
+  
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.5);
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu.special {
+  position: fixed;
+  top: 70px;
+  max-width: 1000px;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.navbar-toggler-icon {
+  border: 2px solid black;
+}
+
+
+
+.dropdown-data h4{
+    font-size: 16px;
+  letter-spacing: 0.05em;
+   border-bottom: 1px solid #5d5f6d;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.dropdown-data h6 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.dropdown-data p {
+  font-size: 12px;
+  color: #5d5f6d;
+  line-height: 1.2;
+}
+
+.dropdown-menu.special.show .dropdown-data {
+  display: flex;
+}
+
+.btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+
+
+       /* main header start */
+
+.main-text h1 {
+  font-family: "Gloock", serif;
+  font-size: 50px;
+  
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-text p {
+  font-size: 18px;
+  color: #000;
+}
+
+input {
+  width: 100% !important;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.035);
+  border: 2px solid #dfdee4;
+}
+.btn-start {
+  border-radius: 150px;
+  width: 200px;
+  background-color: #2355be;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.start-two {
+    border-radius: 100px;
+    width: 150px;
+    background-color: #2355be;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+#continuing {
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.image {
+  width: 200%;
+}
+.image img {
+  height: 500px;
+  max-width: unset;
+}
+
+           /* header End */
+
+           /* four Logo  */
+
+
+.images-4 img {
+  height: 100px;
+  object-fit: contain;
+  justify-items: center;
+}
+.images-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+           /* four logo end */
+
+
+       /* Easy. Smart. Seamless. */
+
+
+
+.divproduct-list ul li:not(:last-of-type) {
+  border-bottom: 3px solid rgba(0,0,0,.12);
+ 
+}
+.divproduct-list ul li {
+  padding-top: 20px;
+  
+}
+
+.divproduct-list h3 {
+  color: #2355be;
+  font-size: 24px;
+}
+.divproduct-list p {
+    color: #000;
+  font-size: 16px;
+  line-height: 1.22;
+}
+
+/* Easy. Smart. Seamless. End */
+
+
+          /* About Divvy start */
+.about-divvy {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+.about-divvy h2 {
+  font-size: 48px;
+  line-height: 1.22;
+  color: white;
+  
+}
+.about-divvy h3{
+    font-size: 38px;
+    color: white;
+}
+.about-divvy p{
+    color: white;
+    font-size: 14px;
+}
+
+.last-text {
+  font-style: italic;
+  font-size: 10px;
+  margin: 0px;
+}
+         /* About divvy end */
+
+         /* The visibility with person image */
+
+.marc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#corporate {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+/* The visibility with person image End*/
+
+/* Divvy security  start*/
+
+.security {
+  background-color: rgb(242, 245, 251);
+}
+.security-data ul li,
+p {
+  padding: 3px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.security-data h1 {
+  padding: 6px;
+  font-weight: 600;
+}
+.security-data p{
+    color: #000;
+}
+
+/* Divvy security  end*/
+
+.ready {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+}
+.ready h1,h2, p{
+    color: white;
+}
+.ready p{
+    font-size: 10px;
+    padding: 20px;
+}
+.ready ul li {
+  list-style: none;
+  font-size: 18px;
+  padding: 5px;
+  color: #cdced6 
+}
+
+
+/* navbar dropdown media query */
+
+@media only screen and (max-width: 767.97px) {
+    .dropdown-menu.special.show .dropdown-data {
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 991.96px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu.special {
+      position: fixed;
+      top: 0px;
+      width: 100%;
+      left: 50%;
+      transform: translatex(-50%);
+      height: 100%;
+      overflow-y: scroll;
+    }
+  }
+  
+  @media only screen and (min-width: 249.94px) {
+    .dropdown-data {
+      margin-top: 30px;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .navbar-nav {
+      gap: 30px;
+    }
+  }
+  @media only screen and (min-width: 1001.94px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu.special {
+      position: fixed;
+      top: 70px;
+      width: 1000px;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+    .btn-close {
+      display: none;
+    }
+  }
+  
+         /* Navbar media query End */
+
+
+          /* four logo media query */
+@media only screen and (max-width: 767.97px) {
+    .images-grid {
+      grid-template-columns: 1fr 1fr ;
+    }
+  }
+             /* last button media query */
+             
+             @media only screen and (max-width: 767.97px) {
+              .special-flex-column {
+               flex-direction: column;
+              }
+            }
+
+            @media only screen and (max-width: 767.97px) {
+              .btn-start {
+               flex-direction: column;
+              }
+            }
